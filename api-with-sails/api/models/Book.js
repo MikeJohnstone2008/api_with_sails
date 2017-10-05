@@ -17,19 +17,19 @@ module.exports = {
         type:   'string',
         maxLength:  true
     },
-    author_last_name:   {
+    authLName:   {
         type:   'string',
         required:    true
     },
-    first_name: {
+    authFName: {
         type:   'string',
         notNull:    true     
     },
-    date_published: {
+    datePublished: {
         type:   'string',
         maxLength:  10   
     },
-    other_titles:   {
+    otherTitles:   {
         type:   'string',
         maxLength:  60
     }
